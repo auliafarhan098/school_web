@@ -1,0 +1,47 @@
+@font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'play'; /*memberikan nama bebas untuk font*/
+    src: url('font1.otf');/*memanggil file font eksternalnya di folder nexa*/
+
+    font-family: 'bebas';
+    src: url('bebas-neue.otf');
+
+    font-family: 'roboto';
+    src: url('roboto.ttf');
+}
+
+body{
+    background-color: #84b1ef; 
+
+}
+
+.kolom{
+    margin: 40px;
+    background-color: #3f7cd1;
+    border: 2px solid #3f7cd1;
+    border-radius: 30px;
+    padding: .5em;
+    font: 1em sans-serif;
+    color:  #1b3367;
+  
+}
+
+.kolom h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'play';
+}
+
+.isi{
+    margin: 30px;
+}
+
+.isi h4{
+    font-family:'roboto';
+    color:  #1a3268;
+}
+
+.isi a{
+    text-decoration: none;
+    color: #1b3367;
+}
